@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('view engine', 'ejs');
 
 // Mongo URI
-const mongoURI = 'mongodb+srv://samalaprashamsa:Samala%40123@mongouploads.alovqqe.mongodb.net/UploadFiles_D?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://<username>:<password>@mongouploads.alovqqe.mongodb.net/UploadFiles_D?retryWrites=true&w=majority';
 
 
 // Create mongo connection
